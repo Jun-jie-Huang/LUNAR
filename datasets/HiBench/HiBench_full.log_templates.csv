@@ -1,0 +1,93 @@
+EventId,EventTemplate
+s1,nohup: ignoring input
+s2,====== Start obtain and cache Kerberos ticket-granting ticket ======
+s3,Password for <*>:
+s4,==================== Start execute hibench test ======================
+s5,mkdir: cannot create directory <*>: File exists
+s6,Start changing datasize ...
+s7,Creating <*> data ...
+s8,patching args=
+s9,Parsing conf: <*>
+s10,probe sleep jar: <*>
+s11,please set <*> and <*> manually
+s12,<*>: line <*>: .: filename argument required
+s13,start <*> bench
+s14,hdfs rm -r: <*> --config <*> fs -rm -r -skipTrash <*>
+s15,Deleted <*>
+s16,Submit MapReduce Job: <*> --config <*> jar <*> HiBench.DataGen -t <*> -b <*> -n <*> -m <*> -r <*> -p <*> -class <*> -o sequence
+s17,<*> <*> INFO <*>: Connecting to Application History server at <*>
+s18,"<*> <*> INFO <*>: Created token for <*>: <*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*> on <*>"
+s19,"<*> <*> INFO <*>: Getting new token from <*>, renewer:<*>"
+s20,"<*> <*> INFO <*>: New token received: (Kind: <*>, Service: <*>, Ident: (token for team7: <*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>))"
+s21,"<*> <*> INFO <*>: New token received: (Kind: <*>, Service: <*>, Ident: (kms-dt owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>))"
+s22,"<*> <*> INFO <*>: Got dt for <*>; Kind: <*>, Service: <*>, Ident: (<*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=1<*>, sequenceNumber=<*>, masterKeyId=<*>)"
+s23,<*> <*> INFO <*>: Disabling Erasure Coding for path: <*>
+s24,<*> <*> INFO <*>: Generating <*> using <*>
+s25,<*> <*> INFO <*>: number of splits:<*>
+s26,<*> <*> INFO <*>: Submitting tokens for job: <*>
+s27,"<*> <*> INFO <*>: Executing with tokens: [Kind: <*>, Service: <*>, Ident: (token for team7: <*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=8531678, masterKeyId=1042), Kind: kms-dt, Service: <*>, Ident: (kms-dt owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>)]"
+s28,<*> <*> INFO <*>: found resource <*> at <*>
+s29,<*> <*> INFO <*>: Timeline service address: <*>
+s30,<*> <*> INFO <*>: Submitted application <*>
+s31,<*> <*> INFO <*>: The url to track the job: <*>
+s32,<*> <*> INFO <*>: Running job: <*>
+s33,<*> <*> INFO <*>: Job <*> running in uber mode : <*>
+s34,<*> <*> INFO <*>: map <*> reduce <*>
+s35,<*> <*> INFO <*>: Job <*> completed successfully
+s36,finish <*> bench
+s37,Start changing mapper and reducer ...
+s38,"====================Start execute hibench datasize: <*>, mapper: <*>, reducer: <*> ======================"
+s39,Running <*> test ...
+s40,hdfs du -s: <*> --config <*> fs -du -s <*>
+s41,<*> <*> INFO <*>: starting
+s42,Total input files to process : <*>
+s43,Spent <*> computing base-splits.
+s44,Spent <*> computing TeraScheduler splits.
+s45,Computing input splits took <*>
+s46,Sampling <*> splits of <*>
+s47,Making <*> from <*> sampled records
+s48,Computing parititions took <*>
+s49,Spent <*> computing partitions.
+s50,top: failed tty get
+s51,<*> <*> INFO <*>: Creating dummy file <*> with <*> slots...
+s52,"curIndex: <*>, total: <*>"
+s53,<*> <*> INFO <*>: creating bayes text data ...
+s54,<*> <*> INFO <*>: Running Job: Create <*> <*>
+s55,<*> <*> INFO <*>: <*> file <*> as <*>
+s56,<*> <*> WARN <*>: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s57,<*> <*> INFO <*>: Finished Running Job: Create <*> <*>
+s58,<*> <*> INFO <*>: Creating PageRank links
+s59,Export env: <*>
+s60,MAHOUT_LOCAL is not set; adding HADOOP_CONF_DIR to classpath.
+s61,"Running on hadoop, using <*> and HADOOP_CONF_DIR=<*>"
+s62,MAHOUT-JOB: <*>
+s63,<*> <*> INFO <*>: Maximum n-gram size is: <*>
+s64,<*> <*> INFO <*>: Minimum LLR value: <*>
+s65,<*> <*> INFO <*>: Number of reduce tasks: <*>
+s66,<*> <*> INFO <*>: Tokenizing documents in <*>
+s67,"<*> <*> INFO <*>: <*> is deprecated. Instead, use <*>"
+s68,<*> <*> INFO <*>: Creating Term Frequency Vectors
+s69,<*> <*> INFO <*>: Creating dictionary from <*> and saving at <*>
+s70,<*> <*> INFO <*>: Job <*> failed with state FAILED due to: Task failed <*>
+s71,Job failed as tasks failed. failedMaps:<*> failedReduces:<*> killedMaps:<*> killedReduces: <*>
+s72,"<*> <*> WARN <*>: No <*> found on classpath, will use command-line arguments only"
+s73,"<*> <*> INFO <*>: Command line arguments: {--alphaI=[<*>], --endPhase=[<*>], --input=[<*>], --labelIndex=[<*>], --output=[<*>], --overwrite=<*>, --startPhase=[<*>], --tempDir=[<*>]}"
+s74,rm: <*>: No such file or directory
+s75,-----===[PEGASUS: A Peta-Scale Graph Mining System]===-----
+s76,"[PEGASUS] Computing PageRank. Max iteration = <*>, threshold = <*>, cur_iteration=<*>"
+s77,Creating initial pagerank vectors...........
+s78,<*> <*> INFO <*>: Program took <*> ms (Minutes: <*>)
+s79,"Iteration = <*>, changed reducer = <*>"
+s80,[PEGASUS] PageRank computed.
+s81,[PEGASUS] The final PageRanks are in the HDFS pr_vector.
+s82,<*> <*> INFO <*>: Deleting <*>
+s83,<*> <*> INFO <*>: Calculating IDF
+s84,<*> <*> INFO <*>: Pruning
+s85,Submit MapReduce Job: <*> --config <*> jar <*> terasort -D mapreduce.job.reduces=<*> -D mapreduce.job.queuename=<*> <*> <*>
+s86,Submit MapReduce Job: <*> --config <*> jar <*> HiBench.DataGen -t <*> -b <*> -n <*> -m <*> -r <*> -p <*> -pbalance <*> -o <*>
+s87,Submit MapReduce Job: <*> --config <*> jar <*> teragen -D mapreduce.job.maps=<*> -D mapreduce.job.reduces=<*> -D mapreduce.job.queuename=<*> <*> <*>
+s88,Submit MapReduce Job: <*> --config <*> jar <*> pegasus.PagerankNaive <*> <*> <*> <*> <*> nosym new
+s89,"<*> <*> INFO <*>: Got dt for <*>; Kind: <*>, Service: <*>, Ident: (token for team7: <*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>)"
+s90,<*> <*> INFO <*>: done
+s91,<*> <*> INFO <*>: Closing <*> data generator...
+s92,<*> <*> INFO <*>: Creating PageRank nodes...

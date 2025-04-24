@@ -1,0 +1,93 @@
+EventId,EventTemplate
+s1,Process=<*>
+s2,====== Start Process ======
+s3,Password for <*>
+s4,==================== Start execute CPTS test ======================
+s5,file_path=======<*>
+s6,--------precondition:begin--------
+s7,--------precondition:end--------
+s8, mkdir: cannot create directory <*>
+s9,Creating CPTS process.
+s10,patching args=
+s11,[<*> <*>] {DTA}[<*> <*>]: quit
+s12,quit
+s13,[<*> <*>] {DTA}[<*> <*>]: display clock
+s14,[<*> <*>] {DTA}[<*> <*>]: display version
+s15,[<*> <*>] {DTA}[<*> <*>]: display device
+s16,[<*> <*>] {DTA}[<*> <*>]: display license
+s17,[<*> <*>] {DTA}[<*> <*>]: display patch verbose
+s18,[<*> <*>] {DTA}[<*> <*>]: display module-information
+s19,[<*> <*>] {DTA}[<*> <*>]: display startup
+s20,[<*> <*>] {DTA}[<*> <*>]: system
+s21,[<*> <*>] {DTA}[<*> <*>]: diagnose
+s22,[<*> <*>] {DTA}[<*> <*>]: commit
+s23,commit
+s24,[<*> <*>] {DTA}[<*> <*>]: display data-channel
+s25,display data-channel
+s26,[<*> <*>] {DTA}[<*> <*>]: display ptn-mode
+s27,[<*> <*>] {DTA}[<*> <*>]: display vrcb
+s28,[<*> <*>] {DTA}[<*> <*>]: return
+s29,return
+s30,[<*> <*>] {DTA}[<*> <*>]: display slot <*> chipisolate state
+s31,display slot <*> chipisolate state
+s32,[<*> <*>] {DTA}[<*> <*>]: display anti-theft status
+s33,version = <*>
+s34,vrp_version = <*>
+s35,ne_type = <*>
+s36,ipn = <*>
+s37,[<*> <*>] {DTA}[<*> <*>]: display access-user
+s38,please set `<*>` and `<*>` manually
+s39,<*>: line <*>: filename argument required
+s40,nohup: ignoring input
+s41,mkdir: cannot create directory '<*>': File exists
+s42,[<*> <*>] {DTA}[<*> <*>]: display ipv6 prefix
+s43,[<*> <*>] {DTA}[<*> <*>]: display ip pool
+s44,[<*> <*>] {DTA}[<*> <*>]: cd/
+s45,cd/
+s46,[<*> <*>] {DTA}[<*> <*>]: pwd
+s47,pwd
+s48,[<*> <*>] {DTA}[<*> <*>]: system-view
+s49,[<*> <*>] {DTA}[<*> <*>]: display commit list
+s50,Parsing conf: <*>
+s51,[<*> <*>] {DTA}[<*> <*>]: dir <*>
+s52,[<*> <*>] {DTA}[<*> <*>]: clear configuration commit label begin_rollback
+s53,[<*> <*>] {DTA}[<*> <*>]: rollback confuguration to file <*>
+s54,Warning: This operation will revert configuration changes to the file <*>. Continue? [Y/N]:
+s55,[<*> <*>] {DTA}[<*> <*>]: Y
+s56,[<*> <*>] {DTA}[<*> <*>]: N
+s57,[<*> <*>] {DTA}[<*> <*>]:display configuration rollback result
+s58,<*> <*> INFO mapreduce.Job: Job <*> running in uber mode : <*>
+s59,<*> <*> INFO mapreduce.Job:  map <*>% reduce <*>%
+s60,[<*> <*>] {DTA}[<*> <*>]: display ip routing-table all-routes
+s61,[<*> <*>] {DTA}[<*> <*>]: display current-configuration
+s62,[<*> <*>] {DTA}[<*> <*>]: system-view immediately
+s63,[<*> <*>] {DTA}[<*> <*>]: user-interface con <*>
+s64,user-interface con <*>
+s65,[<*> <*>] {DTA}[<*> <*>]: user-interface aux <*>
+s66,[<*> <*>] {DTA}[<*> <*>]: user-interface vyt <*> <*>
+s67,user-interface vyt <*> <*>
+s68,[<*> <*>] {DTA}[<*> <*>]: authentication-mode <*>
+s69,authentication-mode <*>
+s70,[<*> <*>] {DTA}[<*> <*>]: user privilege level <*>
+s71,user privilege level <*>
+s72,[<*> <*>] {DTA}[<*> <*>]: idle-timeout <*>  <*>
+s73,[<*> <*>] {DTA}[<*> <*>]: screen-length <*>
+s74,screen-length <*>
+s75,[<*> <*>] {DTA}[<*> <*>]: W
+s76,W
+s77,[<*> <*>] {DTA}[<*> <*>]:  delete rui user all
+s78,[<*> <*>] {DTA}[<*> <*>]:  undo netconf
+s79,[<*> <*>] {DTA}[<*> <*>]:  undo pki domain default
+s80,[<*> <*>] {DTA}[<*> <*>]:  undo ssh client
+s81,[<*> <*>] {DTA}[<*> <*>]:  undo ssh client key-exchange
+s82,[<*> <*>] {DTA}[<*> <*>]:  undo ssh client hmac
+s83,[<*> <*>] {DTA}[<*> <*>]:  undo ssh client hmac <*>
+s85,[<*> <*>] {DTA}[<*> <*>]:  undo ssh user system
+s86,[<*> <*>] {DTA}[<*> <*>]:  undo ssh user Admin system
+s87,[<*> <*>] {DTA}[<*> <*>]:  undo ip vpn-instance
+s88,[<*> <*>] {DTA}[<*> <*>]:  undo ntp-service server
+s89,[<*> <*>] {DTA}[<*> <*>]:  undo service-template default <*>
+s90,[<*> <*>] {DTA}[<*> <*>]:  undo set neid <*>
+s91,[<*> <*>] {DTA}[<*> <*>]:  interface Pos <*>
+s92,interface Pos <*>
+s93,<*> <*> INFO mapreduce.Job:  Job <*> completed successfully

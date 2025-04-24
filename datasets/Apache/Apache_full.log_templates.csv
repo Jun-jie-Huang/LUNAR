@@ -1,0 +1,30 @@
+EventId,EventTemplate
+E1,"[client <*>] mod_security: Access denied with code <*> Error reading POST data, error_code=<*> [hostname <*>] [uri <*>]"
+E2,mod_python: Creating <*> session mutexes based on <*> max processes and <*> max threads.
+E3,[client <*>] client sent <*> request without hostname (see RFC2616 section <*>): /
+E4,Digest: generating secret for digest authentication ...
+E5,[client <*>] request failed: error reading the headers
+E6,[client <*>] request failed: URI too long (longer than <*>)
+E7,"child process <*> still did not exit, sending a SIGTERM"
+E8,Apache/<*> configured -- resuming normal operations
+E9,[client <*>] attempt to invoke directory as script: <*>
+E10,"env.createBean2(): Factory error creating <*> (<*>, <*>)"
+E11,[client <*>] Directory index forbidden by rule: <*>
+E12,"Graceful restart requested, doing restart"
+E13,[client <*>] script not found or unable to stat: <*>
+E14,jk2_init() Can't find child <*> in scoreboard
+E15,jk2_init() Found child <*> in scoreboard slot <*>
+E16,uriMap.mapUri() uri must start with /
+E17,mod_jk child workerEnv in error state <*>
+E18,suEXEC mechanism enabled (wrapper: <*>)
+E19,[client <*>] Attempt to serve directory: <*>
+E20,LDAP: Built with OpenLDAP LDAP SDK
+E21,config.update(): Can't create <*>
+E22,[client <*>] Invalid URI in request <*>
+E23,LDAP: SSL support unavailable
+E24,[client <*>] File does not exist: <*>
+E25,mod_security/<*> configured
+E26,mod_jk2 Shutting down
+E27,workerEnv.init() ok <*>
+E28,mod_jk child init <*>
+E29,Digest: done

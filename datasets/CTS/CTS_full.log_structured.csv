@@ -1,0 +1,265 @@
+LineId,Content,EventId,EventTemplate,ContentWithHeader,EventTemplateWithHeader
+1,Process=65890,s1,Process=<*>,Process=65890,Process=<*>
+2,====== Start Process ======,s2,====== Start Process ======,====== Start Process ======,====== Start Process ======
+3,Password for USER0:,s3,Password for <*>,Password for USER0:,Password for <*>
+4,==================== Start execute CPTS test ======================,s4,==================== Start execute CPTS test ======================,==================== Start execute CPTS test ======================,==================== Start execute CPTS test ======================
+5,file_path=======/report/220912.25/report/HQOS.A2005_report/HQOS.A2005_2021-01-01_16-43.irp,s5,file_path=======<*>,file_path=======/report/220912.25/report/HQOS.A2005_report/HQOS.A2005_2021-01-01_16-43.irp,file_path=======<*>
+6,--------precondition:begin--------,s6,--------precondition:begin--------,--------precondition:begin--------,--------precondition:begin--------
+7,--------precondition:end--------,s7,--------precondition:end--------,--------precondition:end--------,--------precondition:end--------
+8,mkdir: cannot create directory '/home/user/results/job1': File exists,s8,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user/results/job1': File exists,mkdir: cannot create directory '<*>': File exists
+9,Creating CPTS process.,s9,Creating CPTS process.,Creating CPTS process.,Creating CPTS process.
+10,patching args=,s10,patching args=<*>,patching args=,patching args=<*>
+11,quit,s11,quit,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: quit,[<*> <*>] <*>[<*> <*>]: quit
+12,quit,s12,quit,quit,quit
+13,display clock,s13,display clock,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display clock,[<*> <*>] <*>[<*> <*>]: display clock
+14,display version,s14,display version,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display version,[<*> <*>] <*>[<*> <*>]: display version
+15,display device,s15,display device,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display device,[<*> <*>] <*>[<*> <*>]: display device
+16,display license,s16,display license,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display license,[<*> <*>] <*>[<*> <*>]: display license
+17,display patch verbose,s17,display patch verbose,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display patch verbose,[<*> <*>] <*>[<*> <*>]: display patch verbose
+18,display module-information,s18,display module-information,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display module-information,[<*> <*>] <*>[<*> <*>]: display module-information
+19,display startup,s19,display startup,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display startup,[<*> <*>] <*>[<*> <*>]: display startup
+20,system,s20,system,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: system,[<*> <*>] <*>[<*> <*>]: system
+21,diagnose,s21,diagnose,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: diagnose,[<*> <*>] <*>[<*> <*>]: diagnose
+22,commit,s22,commit,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: commit,[<*> <*>] <*>[<*> <*>]: commit
+23,commit,s23,commit,commit,commit
+24,display data-channel,s24,display data-channel,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display data-channel,[<*> <*>] <*>[<*> <*>]: display data-channel
+25,display data-channel,s25,display data-channel,display data-channel,display data-channel
+26,display ptn-mode,s26,display ptn-mode,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ptn-mode,[<*> <*>] <*>[<*> <*>]: display ptn-mode
+27,display vrcb,s27,display vrcb,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display vrcb,[<*> <*>] <*>[<*> <*>]: display vrcb
+28,return,s28,return,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: return,[<*> <*>] <*>[<*> <*>]: return
+29,return,s29,return,return,return
+30,display slot 7 chipisolate state,s30,display slot <*> chipisolate state,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display slot 7 chipisolate state,[<*> <*>] <*>[<*> <*>]: display slot <*> chipisolate state
+31,display slot 7 chipisolate state,s31,display slot <*> chipisolate state,display slot 7 chipisolate state,display slot <*> chipisolate state
+32,display anti-theft status,s32,display anti-theft status,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display anti-theft status,[<*> <*>] <*>[<*> <*>]: display anti-theft status
+33,version = 1.22.33.89,s33,version = <*>,version = 1.22.33.89,version = <*>
+34,vrp_version = 1.22.33.89,s34,vrp_version = <*>,vrp_version = 1.22.33.89,vrp_version = <*>
+35,ne_type = 1.22.33.89,s35,ne_type = <*>,ne_type = 1.22.33.89,ne_type = <*>
+36,ipn = Router,s36,ipn = <*>,ipn = Router,ipn = <*>
+37,display access-user,s37,display access-user,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display access-user,[<*> <*>] <*>[<*> <*>]: display access-user
+38,please set `CPTS.masters.hostnames` and `CPTS.slaves.hostnames` manually,s38,please set <*> and <*> manually,please set `CPTS.masters.hostnames` and `CPTS.slaves.hostnames` manually,please set <*> and <*> manually
+39,/home/user/CPTS3/bin/functions/workload_functions.sh: line 38: filename argument required,s39,<*>: line <*>: filename argument required,/home/user/CPTS3/bin/functions/workload_functions.sh: line 38: filename argument required,<*>: line <*>: filename argument required
+40,nohup: ignoring input,s40,nohup: ignoring input,nohup: ignoring input,nohup: ignoring input
+41,====== Start Process ======,s2,====== Start Process ======,====== Start Process ======,====== Start Process ======
+42,Password for user@BIGDATA:,s3,Password for <*>,Password for user@BIGDATA:,Password for <*>
+43,==================== Start execute CPTS test ======================,s4,==================== Start execute CPTS test ======================,==================== Start execute CPTS test ======================,==================== Start execute CPTS test ======================
+44,mkdir: cannot create directory '/home/user/results': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user/results': File exists,mkdir: cannot create directory '<*>': File exists
+45,mkdir: cannot create directory '/home/user/results/job3': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user/results/job3': File exists,mkdir: cannot create directory '<*>': File exists
+46,mkdir: cannot create directory '/home/user/results/job2': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user/results/job2': File exists,mkdir: cannot create directory '<*>': File exists
+47,mkdir: cannot create directory '/home/user/results/job1': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user/results/job1': File exists,mkdir: cannot create directory '<*>': File exists
+48,display ipv6 prefix,s42,display ipv6 prefix,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ipv6 prefix,[<*> <*>] <*>[<*> <*>]: display ipv6 prefix
+49,display ip pool,s43,display ip pool,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ip pool,[<*> <*>] <*>[<*> <*>]: display ip pool
+50,quit,s11,quit,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: quit,[<*> <*>] <*>[<*> <*>]: quit
+51,quit,s12,quit,quit,quit
+52,cd/,s44,cd/,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: cd/,[<*> <*>] <*>[<*> <*>]: cd/
+53,cd/,s45,cd/,cd/,cd/
+54,pwd,s46,pwd,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: pwd,[<*> <*>] <*>[<*> <*>]: pwd
+55,pwd,s47,pwd,pwd,pwd
+56,system-view,s48,system-view,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view,[<*> <*>] <*>[<*> <*>]: system-view
+57,display commit list,s49,display commit list,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display commit list,[<*> <*>] <*>[<*> <*>]: display commit list
+58,patching args=,s10,patching args=<*>,patching args=,patching args=<*>
+59,Parsing conf: /home/user/CPTS3/conf/hadoop.conf,s50,Parsing conf: <*>,Parsing conf: /home/user/CPTS3/conf/hadoop.conf,Parsing conf: <*>
+60,Parsing conf: /home/user/CPTS3/conf/CPTS.conf,s50,Parsing conf: <*>,Parsing conf: /home/user/CPTS3/conf/CPTS.conf,Parsing conf: <*>
+61,Parsing conf: /home/user/CPTS3/conf/spark.conf,s50,Parsing conf: <*>,Parsing conf: /home/user/CPTS3/conf/spark.conf,Parsing conf: <*>
+62,Parsing conf: /home/user/CPTS3/conf/workloads/micro/job3.conf,s50,Parsing conf: <*>,Parsing conf: /home/user/CPTS3/conf/workloads/micro/job3.conf,Parsing conf: <*>
+63,quit,s11,quit,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: quit,[<*> <*>] <*>[<*> <*>]: quit
+64,quit,s12,quit,quit,quit
+65,dir auto_9.08.100.56.cfg,s51,dir <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: dir auto_9.08.100.56.cfg,[<*> <*>] <*>[<*> <*>]: dir <*>
+66,clear configuration commit label begin_rollback,s52,clear configuration commit label begin_rollback,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: clear configuration commit label begin_rollback,[<*> <*>] <*>[<*> <*>]: clear configuration commit label begin_rollback
+67,rollback confuguration to file auto_9.08.100.56.cfg,s53,rollback confuguration to file <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: rollback confuguration to file auto_9.08.100.56.cfg,[<*> <*>] <*>[<*> <*>]: rollback confuguration to file <*>
+68,Warning: This operation will revert configuration changes to the file auto_9.08.100.56.cfg. Continue? [Y/N]:,s54,Warning: This operation will revert configuration changes to the file <*> Continue? [Y/N]:,Warning: This operation will revert configuration changes to the file auto_9.08.100.56.cfg. Continue? [Y/N]:,Warning: This operation will revert configuration changes to the file <*> Continue? [Y/N]:
+69,Y,s55,Y,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: Y,[<*> <*>] <*>[<*> <*>]: Y
+70,Y,s55,Y,[2019-01-11 15:00:13.135] {DTA}[8.36.200.27 26]: Y,[<*> <*>] <*>[<*> <*>]: Y
+71,N,s56,N,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: N,[<*> <*>] <*>[<*> <*>]: N
+72,display configuration rollback result,s57,display configuration rollback result,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display configuration rollback result,[<*> <*>] <*>[<*> <*>]:display configuration rollback result
+73,Job job_1668496639954_6827 running in uber mode : false,s58,Job <*> running in uber mode : <*>,21/12/25 20:33:42 INFO mapreduce.Job: Job job_1668496639954_6827 running in uber mode : false,<*> INFO mapreduce.Job: Job <*> running in uber mode : <*>
+74,map 0% reduce 0%,s59,map <*> reduce <*>,21/12/25 20:33:42 INFO mapreduce.Job:  map 0% reduce 0%,<*> INFO mapreduce.Job: map <*> reduce <*>
+75,map 67% reduce 0%,s59,map <*> reduce <*>,21/12/25 20:33:49 INFO mapreduce.Job:  map 67% reduce 0%,<*> INFO mapreduce.Job: map <*> reduce <*>
+76,map 100% reduce 0%,s59,map <*> reduce <*>,21/12/25 20:33:55 INFO mapreduce.Job:  map 100% reduce 0%,<*> INFO mapreduce.Job: map <*> reduce <*>
+77,Job job_1668496639954_6827 completed successfully,s93,Job <*> completed successfully,21/12/25 20:33:58 INFO mapreduce.Job: Job job_1668496639954_6827 completed successfully,<*> INFO mapreduce.Job: Job <*> completed successfully
+78,display version,s14,display version,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display version,[<*> <*>] <*>[<*> <*>]: display version
+79,display ip routing-table all-routes,s60,display ip routing-table all-routes,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ip routing-table all-routes,[<*> <*>] <*>[<*> <*>]: display ip routing-table all-routes
+80,display current-configuration,s61,display current-configuration,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display current-configuration,[<*> <*>] <*>[<*> <*>]: display current-configuration
+81,system-view immediately,s62,system-view immediately,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately,[<*> <*>] <*>[<*> <*>]: system-view immediately
+82,user-interface con 1,s63,user-interface con <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 1,[<*> <*>] <*>[<*> <*>]: user-interface con <*>
+83,user-interface con 1,s64,user-interface con <*>,user-interface con 1,user-interface con <*>
+84,user-interface con 2,s63,user-interface con <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 2,[<*> <*>] <*>[<*> <*>]: user-interface con <*>
+85,user-interface con 2,s64,user-interface con <*>,user-interface con 2,user-interface con <*>
+86,user-interface aux 2,s65,user-interface aux <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface aux 2,[<*> <*>] <*>[<*> <*>]: user-interface aux <*>
+87,user-interface vyt 2 20,s66,user-interface vyt <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface vyt 2 20,[<*> <*>] <*>[<*> <*>]: user-interface vyt <*>
+88,user-interface vyt 2 20,s67,user-interface vyt <*>,user-interface vyt 2 20,user-interface vyt <*>
+89,authentication-mode bbb,s68,authentication-mode <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: authentication-mode bbb,[<*> <*>] <*>[<*> <*>]: authentication-mode <*>
+90,authentication-mode bbb,s69,authentication-mode <*>,authentication-mode bbb,authentication-mode <*>
+91,user privilege level 4,s70,user privilege level <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user privilege level 4,[<*> <*>] <*>[<*> <*>]: user privilege level <*>
+92,user privilege level 4,s71,user privilege level <*>,user privilege level 4,user privilege level <*>
+93,idle-timeout 1  1,s72,idle-timeout <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: idle-timeout 1  1,[<*> <*>] <*>[<*> <*>]: idle-timeout <*>
+94,screen-length 4,s73,screen-length <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: screen-length 4,[<*> <*>] <*>[<*> <*>]: screen-length <*>
+95,screen-length 4,s74,screen-length <*>,screen-length 4,screen-length <*>
+96,W,s75,W,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: W,[<*> <*>] <*>[<*> <*>]: W
+97,W,s76,W,W,W
+98,W,s75,W,[2019-01-11 15:00:13.135] {DTA}[8.36.200.27 26]: W,[<*> <*>] <*>[<*> <*>]: W
+99,W,s76,W,W,W
+100,return,s28,return,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: return,[<*> <*>] <*>[<*> <*>]: return
+101,return,s29,return,return,return
+102,system-view immediately,s62,system-view immediately,[2019-03-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately,[<*> <*>] <*>[<*> <*>]: system-view immediately
+103,system-view immediately,s62,system-view immediately,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: system-view immediately,[<*> <*>] <*>[<*> <*>]: system-view immediately
+104,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+105,quit,s11,quit,[2019-03-11 15:00:13.189] {DTA}[8.36.200.27 26]: quit,[<*> <*>] <*>[<*> <*>]: quit
+106,quit,s12,quit,quit,quit
+107,undo netconf,s78,undo netconf,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo netconf,[<*> <*>] <*>[<*> <*>]: undo netconf
+108,undo pki domain default,s79,undo pki domain default,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo pki domain default,[<*> <*>] <*>[<*> <*>]: undo pki domain default
+109,undo ssh client,s80,undo ssh client,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client,[<*> <*>] <*>[<*> <*>]: undo ssh client
+110,undo ssh client key-exchange,s81,undo ssh client key-exchange,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client key-exchange,[<*> <*>] <*>[<*> <*>]: undo ssh client key-exchange
+111,undo ssh client hmac,s82,undo ssh client hmac,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client hmac,[<*> <*>] <*>[<*> <*>]: undo ssh client hmac
+112,undo ssh client hmac sha2,s83,undo ssh client hmac <*>,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client hmac sha2,[<*> <*>] <*>[<*> <*>]: undo ssh client hmac <*>
+113,undo ssh client hmac sha2_126,s83,undo ssh client hmac <*>,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client hmac sha2_126,[<*> <*>] <*>[<*> <*>]: undo ssh client hmac <*>
+114,undo ssh user system,s85,undo ssh user system,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh user system,[<*> <*>] <*>[<*> <*>]: undo ssh user system
+115,undo ssh user Admin system,s86,undo ssh user Admin system,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh user Admin system,[<*> <*>] <*>[<*> <*>]: undo ssh user Admin system
+116,undo ip vpn-instance,s87,undo ip vpn-instance,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ip vpn-instance,[<*> <*>] <*>[<*> <*>]: undo ip vpn-instance
+117,undo ntp-service server,s88,undo ntp-service server,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ntp-service server,[<*> <*>] <*>[<*> <*>]: undo ntp-service server
+118,undo service-template default 5,s89,undo service-template default <*>,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo service-template default 5,[<*> <*>] <*>[<*> <*>]: undo service-template default <*>
+119,undo service-template default 6,s89,undo service-template default <*>,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo service-template default 6,[<*> <*>] <*>[<*> <*>]: undo service-template default <*>
+120,undo service-template default 7,s89,undo service-template default <*>,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo service-template default 7,[<*> <*>] <*>[<*> <*>]: undo service-template default <*>
+121,undo set neid 78987,s90,undo set neid <*>,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo set neid 78987,[<*> <*>] <*>[<*> <*>]: undo set neid <*>
+122,display current-configuration,s61,display current-configuration,[2019-03-11 15:00:13.169] {DTA}[8.36.200.27 26]: display current-configuration,[<*> <*>] <*>[<*> <*>]: display current-configuration
+123,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 27]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+124,quit,s11,quit,[2019-03-11 15:00:13.160] {DTA}[8.36.200.27 27]: quit,[<*> <*>] <*>[<*> <*>]: quit
+125,quit,s12,quit,quit,quit
+126,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.162] {DTA}[8.36.200.27 27]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+127,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.163] {DTA}[8.36.200.27 27]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+128,interface Pos 8/4/0,s91,interface Pos <*>,[2019-03-11 15:00:13.160] {DTA}[8.36.200.27 27]: interface Pos 8/4/0,[<*> <*>] <*>[<*> <*>]: interface Pos <*>
+129,interface Pos 8/4/0,s92,interface Pos <*>,interface Pos 8/4/0,interface Pos <*>
+130,interface Pos 9/4/0,s91,interface Pos <*>,[2019-03-11 15:00:13.162] {DTA}[8.36.200.27 27]: interface Pos 9/4/0,[<*> <*>] <*>[<*> <*>]: interface Pos <*>
+131,interface Pos 9/4/0,s92,interface Pos <*>,interface Pos 9/4/0,interface Pos <*>
+132,interface Pos 6/4/0,s91,interface Pos <*>,[2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: interface Pos 6/4/0,[<*> <*>] <*>[<*> <*>]: interface Pos <*>
+133,interface Pos 6/4/0,s92,interface Pos <*>,interface Pos 6/4/0,interface Pos <*>
+134,display clock,s13,display clock,[2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: display clock,[<*> <*>] <*>[<*> <*>]: display clock
+135,Process=/user/local/rvm/rubies/smp/vrp/cfgm/cmd,s1,Process=<*>,Process=/user/local/rvm/rubies/smp/vrp/cfgm/cmd,Process=<*>
+136,Process=/user/local/rvm/rubies/smp/vrp/cfgm/cmd,s1,Process=<*>,Process=/user/local/rvm/rubies/smp/vrp/cfgm/cmd,Process=<*>
+137,Password for team9@BIGDATA:,s3,Password for <*>,Password for team9@BIGDATA:,Password for <*>
+138,file_path=======/report/220912.25/report/HQOS.A2005_report/HQOS.A2005_2021-01-01_16-47.irp,s5,file_path=======<*>,file_path=======/report/220912.25/report/HQOS.A2005_report/HQOS.A2005_2021-01-01_16-47.irp,file_path=======<*>
+139,mkdir: cannot create directory '/home/user/results/job1': File exists,s8,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user/results/job1': File exists,mkdir: cannot create directory '<*>': File exists
+140,Creating job3 data.,s9,Creating <*> data.,Creating job3 data.,Creating <*> data.
+141,patching args=/user/local/rvm/rubies/smp/vrp/cfgm/cmd,s10,patching args=<*>,patching args=/user/local/rvm/rubies/smp/vrp/cfgm/cmd,patching args=<*>
+142,display clock,s13,display clock,[2019-01-11 15:00:13.234] {DTA}[8.36.200.27 26]: display clock,[<*> <*>] <*>[<*> <*>]: display clock
+143,display version,s14,display version,[2019-01-11 15:00:13.136] {DTA}[8.36.200.27 26]: display version,[<*> <*>] <*>[<*> <*>]: display version
+144,display device,s15,display device,[2019-01-11 15:00:13.145] {DTA}[8.36.200.27 26]: display device,[<*> <*>] <*>[<*> <*>]: display device
+145,display license,s16,display license,[2019-01-11 15:00:13.146] {DTA}[8.36.200.27 26]: display license,[<*> <*>] <*>[<*> <*>]: display license
+146,display patch verbose,s17,display patch verbose,[2019-01-11 15:00:13.166] {DTA}[8.36.200.27 26]: display patch verbose,[<*> <*>] <*>[<*> <*>]: display patch verbose
+147,display module-information,s18,display module-information,[2019-01-11 15:00:13.144] {DTA}[8.36.200.27 26]: display module-information,[<*> <*>] <*>[<*> <*>]: display module-information
+148,display module-information,s18,display module-information,[2019-01-11 15:00:13.154] {DTA}[8.36.200.27 26]: display module-information,[<*> <*>] <*>[<*> <*>]: display module-information
+149,display module-information,s18,display module-information,[2019-01-11 15:00:13.164] {DTA}[8.36.200.27 26]: display module-information,[<*> <*>] <*>[<*> <*>]: display module-information
+150,display module-information,s18,display module-information,[2019-01-11 15:00:13.144] {DTA}[8.36.200.27 26]: display module-information,[<*> <*>] <*>[<*> <*>]: display module-information
+151,display startup,s19,display startup,[2019-01-11 15:00:13.194] {DTA}[8.36.200.27 26]: display startup,[<*> <*>] <*>[<*> <*>]: display startup
+152,system,s20,system,[2019-01-11 15:00:13.104] {DTA}[8.36.200.27 26]: system,[<*> <*>] <*>[<*> <*>]: system
+153,diagnose,s21,diagnose,[2019-01-11 15:00:13.114] {DTA}[8.36.200.27 26]: diagnose,[<*> <*>] <*>[<*> <*>]: diagnose
+154,commit,s22,commit,[2019-01-11 15:00:13.1990] {DTA}[8.36.201.27 26]: commit,[<*> <*>] <*>[<*> <*>]: commit
+155,commit,s23,commit,commit,commit
+156,display data-channel,s24,display data-channel,[2019-01-11 15:00:13.234] {DTA}[8.36.202.27 26]: display data-channel,[<*> <*>] <*>[<*> <*>]: display data-channel
+157,display data-channel,s25,display data-channel,display data-channel,display data-channel
+158,display ptn-mode,s26,display ptn-mode,[2019-01-11 15:00:13.216] {DTA}[8.36.200.27 26]: display ptn-mode,[<*> <*>] <*>[<*> <*>]: display ptn-mode
+159,display vrcb,s27,display vrcb,[2019-01-11 15:00:13.224] {DTA}[8.36.200.27 26]: display vrcb,[<*> <*>] <*>[<*> <*>]: display vrcb
+160,return,s28,return,[2019-01-11 15:00:13.334] {DTA}[8.36.200.27 26]: return,[<*> <*>] <*>[<*> <*>]: return
+161,return,s29,return,return,return
+162,display slot 17 chipisolate state,s30,display slot <*> chipisolate state,[2019-01-11 15:00:13.889] {DTA}[8.36.200.27 26]: display slot 17 chipisolate state,[<*> <*>] <*>[<*> <*>]: display slot <*> chipisolate state
+163,display slot 17 chipisolate state,s31,display slot <*> chipisolate state,display slot 17 chipisolate state,display slot <*> chipisolate state
+164,display anti-theft status,s32,display anti-theft status,[2019-01-11 15:00:13.678] {DTA}[8.36.200.27 26]: display anti-theft status,[<*> <*>] <*>[<*> <*>]: display anti-theft status
+165,version = 1.22.33.899,s33,version = <*>,version = 1.22.33.899,version = <*>
+166,vrp_version = 1.22.33.899,s34,vrp_version = <*>,vrp_version = 1.22.33.899,vrp_version = <*>
+167,ne_type = 1.22.33.899,s35,ne_type = <*>,ne_type = 1.22.33.899,ne_type = <*>
+168,ipn = Router,s36,ipn = <*>,ipn = Router,ipn = <*>
+169,display access-user,s37,display access-user,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display access-user,[<*> <*>] <*>[<*> <*>]: display access-user
+170,please set `CPTS.masters.hostnames` and `CPTS.slaves.hostnames` manually,s38,please set <*> and <*> manually,please set `CPTS.masters.hostnames` and `CPTS.slaves.hostnames` manually,please set <*> and <*> manually
+171,/home/team17/CPTS13/bin/functions/workload_functions.sh: line 138: filename argument required,s39,<*>: line <*>: filename argument required,/home/team17/CPTS13/bin/functions/workload_functions.sh: line 138: filename argument required,<*>: line <*>: filename argument required
+172,nohup: ignoring input,s40,nohup: ignoring input,nohup: ignoring input,nohup: ignoring input
+173,====== Start Process ======,s2,====== Start Process ======,====== Start Process ======,====== Start Process ======
+174,Password for user9@BIGDATA:,s3,Password for <*>,Password for user9@BIGDATA:,Password for <*>
+175,==================== Start execute CPTS test ======================,s4,==================== Start execute CPTS test ======================,==================== Start execute CPTS test ======================,==================== Start execute CPTS test ======================
+176,mkdir: cannot create directory '/home/user9/results': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user9/results': File exists,mkdir: cannot create directory '<*>': File exists
+177,mkdir: cannot create directory '/home/user9/results/job3': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user9/results/job3': File exists,mkdir: cannot create directory '<*>': File exists
+178,mkdir: cannot create directory '/home/user9/results/job2': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user9/results/job2': File exists,mkdir: cannot create directory '<*>': File exists
+179,mkdir: cannot create directory '/home/user9/results/job1': File exists,s41,mkdir: cannot create directory '<*>': File exists,mkdir: cannot create directory '/home/user9/results/job1': File exists,mkdir: cannot create directory '<*>': File exists
+180,display ipv6 prefix,s42,display ipv6 prefix,[2019-01-11 15:00:13.224] {DTA}[8.36.200.27 26]: display ipv6 prefix,[<*> <*>] <*>[<*> <*>]: display ipv6 prefix
+181,display ip pool,s43,display ip pool,[2019-01-11 15:00:13.579] {DTA}[8.36.200.27 26]: display ip pool,[<*> <*>] <*>[<*> <*>]: display ip pool
+182,quit,s11,quit,[2019-01-11 15:00:13.997] {DTA}[8.36.200.27 216]: quit,[<*> <*>] <*>[<*> <*>]: quit
+183,quit,s12,quit,quit,quit
+184,cd/,s44,cd/,[2019-01-11 15:00:13.568] {DTA}[8.36.200.27 216]: cd/,[<*> <*>] <*>[<*> <*>]: cd/
+185,cd/,s45,cd/,cd/,cd/
+186,pwd,s46,pwd,[2019-01-11 15:00:13.876] {DTA}[8.36.200.27 216]: pwd,[<*> <*>] <*>[<*> <*>]: pwd
+187,pwd,s47,pwd,pwd,pwd
+188,system-view,s48,system-view,[2019-01-11 15:00:13.434] {DTA}[8.36.200.27 216]: system-view,[<*> <*>] <*>[<*> <*>]: system-view
+189,display commit list,s49,display commit list,[2019-01-11 15:00:13.1134] {DTA}[8.36.200.27 216]: display commit list,[<*> <*>] <*>[<*> <*>]: display commit list
+190,patching args=,s10,patching args=<*>,patching args=,patching args=<*>
+191,Parsing conf: /home/team17/CPTS13/conf/hadoop.conf,s50,Parsing conf: <*>,Parsing conf: /home/team17/CPTS13/conf/hadoop.conf,Parsing conf: <*>
+192,Parsing conf: /home/team17/CPTS13/conf/CPTS.conf,s50,Parsing conf: <*>,Parsing conf: /home/team17/CPTS13/conf/CPTS.conf,Parsing conf: <*>
+193,Parsing conf: /home/team17/CPTS13/conf/spark.conf,s50,Parsing conf: <*>,Parsing conf: /home/team17/CPTS13/conf/spark.conf,Parsing conf: <*>
+194,Parsing conf: /home/team17/CPTS13/conf/workloads/micro/job3.conf,s50,Parsing conf: <*>,Parsing conf: /home/team17/CPTS13/conf/workloads/micro/job3.conf,Parsing conf: <*>
+195,quit,s11,quit,[2019-01-11 15:00:13.1809] {DTA}[8.36.200.27 1226]: quit,[<*> <*>] <*>[<*> <*>]: quit
+196,quit,s12,quit,quit,quit
+197,dir auto_9.08.100.56.cfg,s51,dir <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: dir auto_9.08.100.56.cfg,[<*> <*>] <*>[<*> <*>]: dir <*>
+198,clear configuration commit label begin_rollback,s52,clear configuration commit label begin_rollback,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: clear configuration commit label begin_rollback,[<*> <*>] <*>[<*> <*>]: clear configuration commit label begin_rollback
+199,rollback confuguration to file auto_9.08.100.56.cfg,s53,rollback confuguration to file <*>,[2019-01-11 15:00:13.1341] {DTA}[8.36.200.27 26]: rollback confuguration to file auto_9.08.100.56.cfg,[<*> <*>] <*>[<*> <*>]: rollback confuguration to file <*>
+200,Warning: This operation will revert configuration changes to the file auto_9.08.100.56.cfg. Continue? [Y/N]:,s54,Warning: This operation will revert configuration changes to the file <*> Continue? [Y/N]:,Warning: This operation will revert configuration changes to the file auto_9.08.100.56.cfg. Continue? [Y/N]:,Warning: This operation will revert configuration changes to the file <*> Continue? [Y/N]:
+201,Y,s55,Y,[2019-01-11 15:00:13.1341] {DTA}[8.36.200.27 26]: Y,[<*> <*>] <*>[<*> <*>]: Y
+202,Y,s55,Y,[2019-01-11 15:00:13.1351] {DTA}[8.36.200.27 26]: Y,[<*> <*>] <*>[<*> <*>]: Y
+203,N,s56,N,[2019-01-11 15:00:13.1341] {DTA}[8.36.200.27 26]: N,[<*> <*>] <*>[<*> <*>]: N
+204,display configuration rollback result,s57,display configuration rollback result,[2019-01-11 15:00:13.1134] {DTA}[8.36.200.27 26]: display configuration rollback result,[<*> <*>] <*>[<*> <*>]:display configuration rollback result
+205,Job job_1668496639954_6827 running in uber mode : false,s58,Job <*> running in uber mode : <*>,21/12/25 20:33:42 INFO mapreduce.Job: Job job_1668496639954_6827 running in uber mode : false,<*> INFO mapreduce.Job: Job <*> running in uber mode : <*>
+206,map 0% reduce 0%,s59,map <*> reduce <*>,21/12/25 20:33:42 INFO mapreduce.Job:  map 0% reduce 0%,<*> INFO mapreduce.Job: map <*> reduce <*>
+207,map 67% reduce 0%,s59,map <*> reduce <*>,21/12/25 20:33:49 INFO mapreduce.Job:  map 67% reduce 0%,<*> INFO mapreduce.Job: map <*> reduce <*>
+208,map 100% reduce 0%,s59,map <*> reduce <*>,21/12/25 20:33:55 INFO mapreduce.Job:  map 100% reduce 0%,<*> INFO mapreduce.Job: map <*> reduce <*>
+209,Job job_1668496639954_6827 completed successfully,s93,Job <*> completed successfully,21/12/25 20:33:58 INFO mapreduce.Job: Job job_1668496639954_6827 completed successfully,<*> INFO mapreduce.Job: Job <*> completed successfully
+210,display version,s14,display version,[2019-01-11 15:00:13.1994] {DTA}[8.36.200.27 26]: display version,[<*> <*>] <*>[<*> <*>]: display version
+211,display ip routing-table all-routes,s60,display ip routing-table all-routes,[2019-01-11 15:00:13.135] {DTA}[8.36.200.27 26]: display ip routing-table all-routes,[<*> <*>] <*>[<*> <*>]: display ip routing-table all-routes
+212,display current-configuration,s61,display current-configuration,[2019-01-11 15:00:13.194] {DTA}[8.36.200.27 26]: display current-configuration,[<*> <*>] <*>[<*> <*>]: display current-configuration
+213,system-view immediately,s62,system-view immediately,[2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately,[<*> <*>] <*>[<*> <*>]: system-view immediately
+214,user-interface con 11,s63,user-interface con <*>,[2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 11,[<*> <*>] <*>[<*> <*>]: user-interface con <*>
+215,user-interface con 1,s64,user-interface con <*>,user-interface con 1,user-interface con <*>
+216,user-interface con 21,s63,user-interface con <*>,[2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 21,[<*> <*>] <*>[<*> <*>]: user-interface con <*>
+217,user-interface con 2,s64,user-interface con <*>,user-interface con 2,user-interface con <*>
+218,user-interface aux 22,s65,user-interface aux <*>,[2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface aux 22,[<*> <*>] <*>[<*> <*>]: user-interface aux <*>
+219,user-interface vyt 2 21,s66,user-interface vyt <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface vyt 2 21,[<*> <*>] <*>[<*> <*>]: user-interface vyt <*>
+220,user-interface vyt 2 21,s67,user-interface vyt <*>,user-interface vyt 2 21,user-interface vyt <*>
+221,authentication-mode ccc,s68,authentication-mode <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: authentication-mode ccc,[<*> <*>] <*>[<*> <*>]: authentication-mode <*>
+222,authentication-mode ccc,s69,authentication-mode <*>,authentication-mode ccc,authentication-mode <*>
+223,user privilege level 49,s70,user privilege level <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user privilege level 49,[<*> <*>] <*>[<*> <*>]: user privilege level <*>
+224,user privilege level 49,s71,user privilege level <*>,user privilege level 49,user privilege level <*>
+225,idle-timeout 1  19,s72,idle-timeout <*>,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: idle-timeout 1  19,[<*> <*>] <*>[<*> <*>]: idle-timeout <*>
+226,screen-length 49,s73,screen-length <*>,[2019-01-11 15:00:13.234] {DTA}[8.36.200.27 26]: screen-length 49,[<*> <*>] <*>[<*> <*>]: screen-length <*>
+227,screen-length 49,s74,screen-length <*>,screen-length 49,screen-length <*>
+228,W,s75,W,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: W,[<*> <*>] <*>[<*> <*>]: W
+229,W,s76,W,W,W
+230,return,s28,return,[2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: return,[<*> <*>] <*>[<*> <*>]: return
+231,return,s29,return,return,return
+232,system-view immediately,s62,system-view immediately,[2019-03-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately,[<*> <*>] <*>[<*> <*>]: system-view immediately
+233,system-view immediately,s62,system-view immediately,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: system-view immediately,[<*> <*>] <*>[<*> <*>]: system-view immediately
+234,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.359] {DTA}[8.36.200.27 26]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+235,quit,s11,quit,[2019-03-11 15:00:13.659] {DTA}[8.36.200.27 26]: quit,[<*> <*>] <*>[<*> <*>]: quit
+236,quit,s12,quit,quit,quit
+237,undo netconf,s78,undo netconf,[2019-03-11 15:00:13.759] {DTA}[8.36.200.27 26]: undo netconf,[<*> <*>] <*>[<*> <*>]: undo netconf
+238,undo pki domain default,s79,undo pki domain default,[2019-03-11 15:00:13.659] {DTA}[8.36.200.27 26]: undo pki domain default,[<*> <*>] <*>[<*> <*>]: undo pki domain default
+239,undo ssh client,s80,undo ssh client,[2019-03-11 15:00:13.150] {DTA}[8.36.200.27 26]: undo ssh client,[<*> <*>] <*>[<*> <*>]: undo ssh client
+240,undo ssh client key-exchange,s81,undo ssh client key-exchange,[2019-03-11 15:00:13.161] {DTA}[8.36.200.27 126]: undo ssh client key-exchange,[<*> <*>] <*>[<*> <*>]: undo ssh client key-exchange
+241,undo ssh client hmac,s82,undo ssh client hmac,[2019-03-11 15:00:13.162] {DTA}[8.36.200.27 226]: undo ssh client hmac,[<*> <*>] <*>[<*> <*>]: undo ssh client hmac
+242,undo ssh client hmac sha2,s83,undo ssh client hmac <*>,[2019-03-11 15:00:13.171] {DTA}[8.36.200.27 236]: undo ssh client hmac sha2,[<*> <*>] <*>[<*> <*>]: undo ssh client hmac <*>
+243,undo ssh client hmac sha2_1268,s83,undo ssh client hmac <*>,[2019-03-11 15:00:13.181] {DTA}[8.36.200.27 216]: undo ssh client hmac sha2_1268,[<*> <*>] <*>[<*> <*>]: undo ssh client hmac <*>
+244,undo ssh user system,s85,undo ssh user system,[2019-03-11 15:00:13.191] {DTA}[8.36.200.27 246]: undo ssh user system,[<*> <*>] <*>[<*> <*>]: undo ssh user system
+245,undo ssh user Admin system,s86,undo ssh user Admin system,[2019-03-11 15:00:13.158] {DTA}[8.36.200.27 236]: undo ssh user Admin system,[<*> <*>] <*>[<*> <*>]: undo ssh user Admin system
+246,undo ip vpn-instance,s87,undo ip vpn-instance,[2019-03-11 15:00:13.169] {DTA}[8.36.200.27 216]: undo ip vpn-instance,[<*> <*>] <*>[<*> <*>]: undo ip vpn-instance
+247,undo ntp-service server,s88,undo ntp-service server,[2019-03-11 15:00:13.179] {DTA}[8.36.200.27 226]: undo ntp-service server,[<*> <*>] <*>[<*> <*>]: undo ntp-service server
+248,undo service-template default 5,s89,undo service-template default <*>,[2019-03-11 15:00:13.199] {DTA}[8.36.200.27 226]: undo service-template default 5,[<*> <*>] <*>[<*> <*>]: undo service-template default <*>
+249,undo service-template default 6,s89,undo service-template default <*>,[2019-03-11 15:00:13.199] {DTA}[8.36.200.27 226]: undo service-template default 6,[<*> <*>] <*>[<*> <*>]: undo service-template default <*>
+250,undo service-template default 7,s89,undo service-template default <*>,[2019-03-11 15:00:13.199] {DTA}[8.36.200.27 226]: undo service-template default 7,[<*> <*>] <*>[<*> <*>]: undo service-template default <*>
+251,undo set neid 789874,s90,undo set neid <*>,[2019-03-11 15:00:13.179] {DTA}[8.36.200.27 261]: undo set neid 789874,[<*> <*>] <*>[<*> <*>]: undo set neid <*>
+252,display current-configuration,s61,display current-configuration,[2019-03-11 15:00:13.169] {DTA}[8.36.200.27 269]: display current-configuration,[<*> <*>] <*>[<*> <*>]: display current-configuration
+253,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.159] {DTA}[8.36.200.27 27]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+254,quit,s11,quit,[2019-03-11 15:00:13.190] {DTA}[8.36.200.27 27]: quit,[<*> <*>] <*>[<*> <*>]: quit
+255,quit,s12,quit,quit,quit
+256,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.192] {DTA}[8.36.200.27 27]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+257,delete rui user all,s77,delete rui user all,[2019-03-11 15:00:13.193] {DTA}[8.36.200.27 27]: delete rui user all,[<*> <*>] <*>[<*> <*>]: delete rui user all
+258,interface Pos 81/4/0,s91,interface Pos <*>,[2019-03-11 15:00:13.160] {DTA}[8.36.200.27 27]: interface Pos 81/4/0,[<*> <*>] <*>[<*> <*>]: interface Pos <*>
+259,interface Pos 81/4/0,s92,interface Pos <*>,interface Pos 81/4/0,interface Pos <*>
+260,interface Pos 91/4/0,s91,interface Pos <*>,[2019-03-11 15:00:13.162] {DTA}[8.36.200.27 27]: interface Pos 91/4/0,[<*> <*>] <*>[<*> <*>]: interface Pos <*>
+261,interface Pos 91/4/0,s92,interface Pos <*>,interface Pos 91/4/0,interface Pos <*>
+262,interface Pos 61/4/0,s91,interface Pos <*>,[2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: interface Pos 61/4/0,[<*> <*>] <*>[<*> <*>]: interface Pos <*>
+263,interface Pos 61/4/0,s92,interface Pos <*>,interface Pos 61/4/0,interface Pos <*>
+264,display clock,s13,display clock,[2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: display clock,[<*> <*>] <*>[<*> <*>]: display clock
