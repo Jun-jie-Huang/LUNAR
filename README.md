@@ -73,7 +73,7 @@ bash run_lunar_parallel.sh all
 
 # 4. LoFI dataset
 In our paper, we annotate a new log parsing dataset with industrial logs LoFI. The original logs are collected from our ISSRE-2024 paper [Demystifying and Extracting Fault-indicating Information from Logs for Failure Diagnosis](https://arxiv.org/pdf/2409.13561).
-You can find our dataset at [`./dataset/LoFI`](https://github.com/Jun-jie-Huang/LUNAR/blob/main/LUNAR/dataset/LoFI).
+You can find our dataset at [`./dataset/LoFI`](https://github.com/Jun-jie-Huang/LUNAR/blob/main/dataset/LoFI).
 
 
 ## Citation
